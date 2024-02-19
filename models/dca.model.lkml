@@ -25,11 +25,7 @@ persist_with: dca_default_datagroup
 # Typically, join parameters require that you define the join type, join relationship, and a sql_on clause.
 # Each joined view also needs to define a primary key.
 
-explore: dca2_historical_data {}
-
 explore: mdm {}
-
-explore: operational_aggregate_metrics_01312024_bkp {}
 
 explore: operational_aggregate_metrics {}
 
@@ -37,21 +33,4 @@ explore: epr {}
 
 explore: dca_log {}
 
-explore: operational_aggregate_metrics_1705475620 {}
-
-explore: dca_last_run {}
-
-explore: operational_aggregate_metrics_ltb {}
-
-explore: operational_aggregate_metrics_20240130_bkp {}
-
-explore: operational_aggregate_metrics_03022024_bkp {}
-
-explore: operational_aggregate_metrics_bkp_g3 {}
-
-explore: operational_aggregate_metrics_sessions {}
-
-explore: operational_aggregate_metrics20240212_t11_31_19 {}
-
 explore: transactional_aggregate_metrics {}
-
